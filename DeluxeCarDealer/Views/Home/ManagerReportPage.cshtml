@@ -1,0 +1,66 @@
+﻿@model Data.ViewModels.ReportViewModel
+
+@{
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "CatalogPage";
+}
+
+<style>
+    table {
+        width: 80%; /* Ширина таблицы */
+        /*border: 1px solid green;*/ /* Рамка вокруг таблицы */
+        margin: auto; /* Выравниваем таблицу по центру окна  */
+        font-size: 16px;
+        font-family: 'Century Gothic';
+    }
+    tfoot {
+        font-weight: bold;
+    }
+   
+</style>
+<p>
+    <h3>Отчет за текущий месяц (@DateTime.Now.Month.ToString().@DateTime.Now.Year.ToString()</h3>
+</p>
+<table class="table">
+    <tr>
+        <th id="Mark">Марка</th>
+        <th id="Model">Модель</th>
+        <th id="ManFIO">ФИО Менеджера</th>
+        <th id="ClFIO">ФИО Покупателя</th>
+        <th id="Price">Стоимость, ₽</th>
+    </tr>
+    
+    @{ int summ = 0;
+        foreach (var item in Model.SellModels)
+        {
+            summ += Int32.Parse(item.Car.Price);
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car.Mark)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManagerFIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientFIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car.Price)
+            </td>
+        </tr>
+            }
+        }
+    <tfoot>
+        <tr>
+            <td colspan="4" align="right">Суммарно продано на</td>
+            <td>@summ ₽</td>
+        </tr>
+    </tfoot>
+</table>
+

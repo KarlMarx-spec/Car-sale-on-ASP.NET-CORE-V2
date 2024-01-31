@@ -1,0 +1,325 @@
+﻿@model Data.ViewModels.CarViewModel
+
+@{
+    Layout = "~/Views/Shared/_CarPageLayout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "CarPage";
+}
+
+@{var imageSource1 = $"/Content/{Model.Model}.jpg";
+    var imageSource2 = $"/Content/{Model.Model}2.jpg";}
+<style>
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+    .custom-btn {
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+    }
+    /* 3 */
+    .btn-3 {
+        position: relative;
+        top: 200px;
+        margin: 0 auto;
+        display: block;
+        font-family: 'Century Gothic';
+        font-size: 20pt;
+        background: rgb(0,172,238);
+        background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+        width: 250px;
+        height: 50px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        z-index: 109;
+    }
+
+        .btn-3 span {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-3:before,
+        .btn-3:after {
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            background: rgba(2,126,251,1);
+            transition: all 0.3s ease;
+        }
+
+        .btn-3:before {
+            height: 0%;
+            width: 2px;
+        }
+
+        .btn-3:after {
+            width: 0%;
+            height: 2px;
+        }
+
+        .btn-3:hover {
+            background: transparent;
+            box-shadow: none;
+        }
+
+            .btn-3:hover:before {
+                height: 100%;
+            }
+
+            .btn-3:hover:after {
+                width: 100%;
+            }
+
+        .btn-3 span:hover {
+            color: rgba(2,126,251,1);
+        }
+
+        .btn-3 span:before,
+        .btn-3 span:after {
+            position: absolute;
+            content: "";
+            left: 0;
+            bottom: 0;
+            background: rgba(2,126,251,1);
+            transition: all 0.3s ease;
+        }
+
+        .btn-3 span:before {
+            width: 2px;
+            height: 0%;
+        }
+
+        .btn-3 span:after {
+            width: 0%;
+            height: 2px;
+        }
+
+        .btn-3 span:hover:before {
+            height: 100%;
+        }
+
+        .btn-3 span:hover:after {
+            width: 100%;
+        }
+
+    table {
+        width: 80%; /* Ширина таблицы */
+        /*border: 1px solid green;*/ /* Рамка вокруг таблицы */
+        margin: auto; /* Выравниваем таблицу по центру окна  */
+    }
+
+    .slider {
+        position: relative;
+        max-width: 1000px;
+        margin: /*50px */auto;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    }
+
+
+        .slider input[name="switch"] {
+            display: none;
+        }
+
+    .switch {
+        position: absolute;
+        left: 0;
+        bottom: 40px;
+        text-align: center;
+        width: 100%;
+        z-index: 90;
+    }
+
+    table.newtable {
+        position: absolute;
+        width: 40%; /* Ширина таблицы */
+        left:25%;
+        right:25%;
+        color: white;
+        z-index: 85;
+        bottom: -20%;
+    }
+
+    table.newtable2 {
+        position: absolute;
+        width: 50%; /* Ширина таблицы */
+        left: 25%;
+        right: 25%;
+        color: black;
+        z-index: 85;
+        bottom: -22%;
+    }
+
+    .gradient {
+        position: absolute;
+        text-align: center;
+        top: 600px;
+        width: 100%;
+        height: 30%;
+        z-index: 2;
+        background: linear-gradient(rgba(0, 0, 0, 0), 10%, black);
+    }
+
+    .switch label {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        margin: 0 3px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        border: 0px solid #2f363c;
+        background-color: white;/*#738290;*/
+    }
+
+    #btn1:checked ~ .switch label[for="btn1"] {
+        background-color: red;
+    }
+
+    #btn2:checked ~ .switch label[for="btn2"] {
+        background-color: red;
+    }
+
+    #btn3:checked ~ .switch label[for="btn3"] {
+        background-color: red;
+    }
+
+    .slider-inner {
+        overflow: hidden;
+    }
+
+    .slides {
+        display: flex;
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+        .slides img {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+    #btn1:checked ~ slider-inner slides {
+        transform: translate(0);
+    }
+
+    #btn2:checked ~ .slider-inner .slides {
+        transform: translateX(-100%);
+    }
+
+    #btn3:checked ~ .slider-inner .slides {
+        transform: translateX(-200%);
+    }
+
+    .credit {
+        position: relative;
+        margin: 25% auto;
+    }
+</style>
+<body>
+    <table class="table">
+        <tr>
+            <td align="left" width=20%>
+                <h3>@Html.DisplayFor(modelItem => Model.Mark) @Html.DisplayFor(modelItem => Model.Model)</h3>
+
+            </td>
+            <td align="right" width=15%>
+                <h3>от @Html.DisplayFor(modelItem => Model.Price) ₽</h3>
+            </td>
+        </tr>
+    </table>
+
+
+    <div class="slider">
+        <input type="radio" name="switch" id="btn1" checked>
+        <input type="radio" name="switch" id="btn2">
+
+        <div class="switch">
+            <label for="btn1"></label>
+            <label for="btn2"></label>
+        </div>
+
+        @*<div class="gradient">&nbsp;</div><table class="newtable">*@
+        <table class="newtable2">
+            @*<tr>&nbsp;</tr>*@
+            <tr>
+                <td align="left">
+                    Мощность
+                </td>
+                <td align="right">@Html.DisplayFor(modelItem => Model.Hp) л/с </td>
+            </tr>
+            @*<tr>&nbsp;</tr>*@
+            <tr>
+                <td align="left">
+                    Крутящий момент
+                </td>
+                <td align="right">
+                    @Html.DisplayFor(modelItem => Model.RPM) об/мин
+                </td>
+            </tr>
+            @*<tr>&nbsp;</tr>*@
+            <tr>
+                <td align="left">
+                    Максимальная скорость
+                </td>
+                <td align="right">
+                    @Html.DisplayFor(modelItem => Model.MaxSpeed) км/ч
+                </td>
+            </tr>
+            @*<tr>&nbsp;</tr>*@
+            <tr>
+                <td align="left">
+                    Разгон до 100 км/ч
+                </td>
+                <td align="right">
+                    @Html.DisplayFor(modelItem => Model.TimeTo100) с
+                </td>
+            </tr>
+            @*<tr>&nbsp;</tr>*@
+            <tr>
+                <td align="left">
+                    Цвет
+                </td>
+                <td align="right">
+                    @Html.DisplayFor(modelItem => Model.Color)
+                </td>
+            </tr>
+        </table>
+        <div class="slider-inner">
+            <div class="slides">
+                <img src="@imageSource1" />
+                <img src="@imageSource2" />
+            </div>
+        </div>
+
+    </div>
+    <a href="@Url.Action("SellingPage", "Home", new { CarId = Model.CarId })">
+        <button class="custom-btn btn-3"><span>Приобрести</span></button>
+    </a>
+    
+    @*<a class="custom-btn btn-3" asp-area="" asp-controller="Home" asp-action="SellingPage">Приобрести</a>*@
+    @*<div class="credit">
+            <p>pupa</p>
+        </div>*@
+    <br /><br /><br /><br /><br />
+</body>

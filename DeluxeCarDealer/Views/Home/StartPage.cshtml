@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+}
+@{
+    Layout = "~/Views/Shared/_CarPageLayout.cshtml";
+}
+<style>
+    body {
+        position: relative;
+        background: url(/Content/main2.jpg) no-repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+        
+    }
+
+    .slogan {
+        font-size: 40pt;
+    }
+
+    .white {
+        position: relative;
+        background: rgba(255, 255, 255, 0.9) no-repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 150%; /* Современные браузеры */
+        border-radius: 8px;
+        
+    }
+
+    .marginauto {
+        display: block;
+        margin: 0 auto;
+    }
+    a.myhref {
+        font-size: 40pt;
+        font-family: 'Century Gothic';
+        text-decoration: none;
+       
+    }
+
+        a.myhref:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:hover {
+            color: black;
+            text-decoration: none;
+            background: #d0d0d0;
+        }
+
+        a.myhref:active {
+            color: black;
+            text-decoration: none;
+            background: #9a9a9a;
+        }
+</style>
+<body style="opacity:1;transition:0.5s;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="white">
+
+        <p class="slogan">
+            &nbsp;Deluxe Car - для смелых и решительных &nbsp;людей,
+            которых дополнят премиум авто &nbsp;из нашего автосалона <br />
+        </p>
+        <div style="text-align: center;">
+            <a class="myhref" align="center" href="@Url.Action("CatalogPage", "Home")">
+                К каталогу ->
+            </a>
+        </div>
+    </div>
+    @*<div style="text-align: center;"><img src="/Content/inside2.jpg" width="100%"></div>*@
+
+    @*<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        </asp:Content>
+        <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+            <a href="@Url.Action("CatalogPage", "Home")"><img src="/Content/main.jpg" style="width: 100%; " /></a>
+            <h4>Официальный дилер</h4>
+            <font color="#ee0000"><big><big><big><big><big><big>6</big></big></big></big></big></big></font>
+            <span style="vertical-align: 25px; font-family: 'Century Gothic'; font-size: xx-large;">&nbsp;автомобильных брендов</span>
+            <span style="vertical-align: 40px; font-family: 'Century Gothic';" class="auto-style1" aria-multiline="False" aria-multiselectable="False" aria-orientation="horizontal" dir="ltr"></span>
+            <table border="0" style="width:100%;">
+                <td align="center"><img src="/Content/Lada.svg" style: width="70%" /></td>
+                <td align="center"><img src="/Content/Reno.svg" style: width="70%" /></td>
+                <td align="center"><img src="/Content/Hyundai.svg" style: width="70%" /></td>
+                <td align="center"><img src="/Content/Kia.svg" style: width="70%" /></td>
+                <td align="center"><img src="/Content/GN.png" style: width="70%" /></td>
+                <td align="center"><img src="/Content/MB.png" style: width="80%" /></td>
+            </table>
+            <br>
+            <br>
+        </asp:Content>*@
+</body>

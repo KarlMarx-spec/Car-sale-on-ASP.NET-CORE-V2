@@ -1,0 +1,157 @@
+﻿@model Data.ViewModels.CatalogViewModel
+
+@{
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "CatalogPage";
+}
+
+<style>
+    table {
+        width: 80%; /* Ширина таблицы */
+        /*border: 1px solid green;*/ /* Рамка вокруг таблицы */
+        margin: auto; /* Выравниваем таблицу по центру окна  */
+        font-size: 16px;
+        font-family: 'Century Gothic';
+    }
+
+    #zatemnenie {
+        font-family: 'Century Gothic';
+        background: rgba(50, 50, 50, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    #okno {
+        font-family: 'Century Gothic';
+        width: 300px;
+        height: 120px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #000000;
+        border-radius: 0px;
+        color: #000000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+    }
+
+    #zatemnenie:target {
+        display: block;
+    }
+
+    .close {
+        font-family: 'Century Gothic';
+        display: inline-block;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0 15px;
+        margin: 30px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor: pointer;
+    }
+
+    .open {
+        font-family: 'Century Gothic';
+        display: inline-block;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0 15px;
+        margin: 30px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor: pointer;
+    }
+
+        .open:hover {
+            background: #b0e8cd;
+        }
+
+    .close:hover {
+        background: #f0b2b7;
+    }
+
+    a{
+        font: 20pt;
+    }
+    /*td {
+        text-align: center;*/ /* Выравниваем текст по центру ячейки */
+    /*}*/
+</style>
+<p>
+    <h3>Изменить ассортимент</h3>
+</p>
+<!--<table class="table">-->
+@*<thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Mark)</th>
+            <th>@Html.DisplayNameFor(model => model.Model)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+        </tr>
+    </thead>*@
+<!--<tbody>-->
+@foreach (var item in Model.catalogModels)
+{
+    var imageSource = $"/Content/{item.Model}.png";
+    @*<table class="table">
+            <tr>
+                <td align="center" width: 80%>
+                    <a href="@Url.Action("CarPage", "Home", new { CarId = item.AutoId })">
+                        <img src=@imageSource alt="hh" />
+                    </a>
+                </td>
+            </tr>
+        </table>*@
+    <table class="table">
+        <tr>
+            <td align="left" width=20%>
+                @Html.DisplayFor(modelItem => item.Mark) @Html.DisplayFor(modelItem => item.Model)
+
+            </td>
+            <td align="left" width=15%>
+                от @Html.DisplayFor(modelItem => item.Price) ₽
+            </td>
+            <td align="right">
+                <a href="@Url.Action("UpdateCar", "Home", new { CarId = item.AutoId })">
+                    Изменить
+                </a>
+                &nbsp; &nbsp;
+                @*</td>
+                    <td align="right">*@
+                <a href="#zatemnenie">Удалить</a>
+                @*<a href="@Url.Action("DeleteCar", "Home", new { CarId = item.AutoId })">*@
+                @*</a>*@
+                <div id="zatemnenie" font-family='Century Gothic'>
+                    <div id="okno">
+                        Вы уверены?<br>
+                        <a href="@Url.Action("DeleteCar", "Home", new { CarId = item.AutoId })" class="open">Да</a>
+                        <a href="#" class="close">Нет</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+}
+<table>
+    <tr>
+        <td align="center">
+            <a href="@Url.Action("AddCarPage", "Home")">
+                Добавить авто
+            </a>
+        </td>
+    </tr>
+</table>
+

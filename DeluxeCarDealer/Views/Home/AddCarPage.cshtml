@@ -1,0 +1,23 @@
+﻿@model Data.Models.RoleModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h1>Добавить авто в ассортимент</h1>
+
+@using (Html.BeginForm("AddCar", "Home", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td><p>Логин</p></td>
+            <td><input type="text" name="login" /></td>
+        </tr>
+        <tr>
+            <td><p>Пароль</p></td>
+            <td><input type="text" name="password" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Ок" /></td>
+            <td></td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\bin\Debug\net5.0\publish\</_PublishTargetUrl>
+    <History>False|2022-12-21T13:59:02.7672537Z;True|2022-12-21T16:13:24.8099186+03:00;False|2022-12-21T16:13:02.1771577+03:00;False|2022-12-21T16:12:27.1277232+03:00;True|2022-12-21T13:50:53.1101258+03:00;True|2022-12-21T13:42:03.3298486+03:00;True|2022-12-21T10:32:27.0172351+03:00;True|2022-12-21T10:31:50.4269679+03:00;True|2022-12-21T10:24:51.6866614+03:00;True|2022-12-21T01:07:18.2139998+03:00;True|2022-12-21T00:44:41.0325139+03:00;False|2022-12-21T00:42:57.2008508+03:00;True|2022-12-21T00:36:22.7994055+03:00;True|2022-12-20T23:25:32.2618432+03:00;True|2022-12-20T11:53:08.6590605+03:00;True|2022-12-16T16:54:39.1173517+03:00;True|2022-12-16T16:46:06.7638667+03:00;</History>
+  </PropertyGroup>
+</Project>

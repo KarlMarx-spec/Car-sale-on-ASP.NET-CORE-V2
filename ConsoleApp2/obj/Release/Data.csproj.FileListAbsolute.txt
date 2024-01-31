@@ -1,0 +1,10 @@
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\bin\Release\ConsoleApp2.exe.config
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\bin\Release\ConsoleApp2.exe
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\bin\Release\ConsoleApp2.pdb
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\bin\Release\System.Data.OleDb.dll
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\bin\Release\System.Data.OleDb.xml
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\obj\Release\Data.csproj.AssemblyReference.cache
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\obj\Release\Data.csproj.CoreCompileInputs.cache
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\obj\Release\Data.csproj.CopyComplete
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\obj\Release\ConsoleApp2.exe
+D:\github_projects\DeluxeCarDealer\ConsoleApp2\obj\Release\ConsoleApp2.pdb

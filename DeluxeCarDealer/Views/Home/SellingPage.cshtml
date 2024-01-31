@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewData["Title"] = "SellingPage";
+    ViewData["CarId"] = Model;
+}
+@{ 
+    Layout = "_CarPageLayout";
+}
+
+<style>
+    table {
+        font-size: 18pt;
+        font-family: 'Century Gothic';
+    }
+    header {
+        margin: auto;
+    }
+    .yes {
+        position: relative;
+        margin: 0 auto;
+        
+        width: 60%;
+        
+    }
+    body {
+        background: url(/Content/main4.jpg) no-repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+    }
+
+    .white {
+        position: relative;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8) no-repeat;
+        -moz-background-size: 150%; /* Firefox 3.6+ */
+        -webkit-background-size: 150%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 150%; /* Opera 9.6+ */
+        background-size: 150%; /* Современные браузеры */
+        border-radius: 8px;
+    }
+
+    .marginauto {
+        display: block;
+        margin: 0 auto;
+    }
+
+    a.myhref {
+        font-size: 40pt;
+        font-family: 'Century Gothic';
+        text-decoration: none;
+    }
+
+        a.myhref:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        a.myhref:hover {
+            color: black;
+            text-decoration: none;
+            background: #d0d0d0;
+        }
+
+        a.myhref:active {
+            color: black;
+            text-decoration: none;
+            background: #9a9a9a;
+        }
+</style>
+<body>
+    <div class="yes" style="opacity:1;transition:0.5s;">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="white">
+            <br />
+            <h1>Введите ФИО и номер телефона</h1>
+            <br />
+            
+            @using (Html.BeginForm("SellProcess", "Home", FormMethod.Post))
+            {
+        <table align="center">
+            <input type="hidden" name="CarId" value="@ViewBag.CarId" />
+            <tr>
+                <td><p>ФИО</p></td>
+                <td>&nbsp;</td>
+                <td><input type="text" name="FIO" /></td>
+            </tr>
+            <tr>
+                <td><p>Телефон</p></td>
+                <td>&nbsp;</td>
+                <td><input type="text" name="Phone" /></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+
+                <td>&nbsp;</td>
+                <td>
+                    @*<a href="@Url.Action("SellProcess3", "Home", new { CarId = ViewBag.CarId })">*@
+                        <input type="submit" value="Отправить" />
+                </td>
+                
+
+            </tr>
+
+        </table>
+            }
+            <br />
+        </div>
+    </div>
+</body>
+
+

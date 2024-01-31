@@ -1,0 +1,105 @@
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.exe
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\911.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\9112.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\aventador.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\aventador2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar.zip
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\911 2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\911 3.jpeg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\911 4.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\911.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\aventador.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\aventador2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\bmw m5.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\bmw m5.webp
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\bmw x5 2.webp
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\bmw x5.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\bmw x5.webp
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\cayenne.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\cayenne2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\cayenne3.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\huracan.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\huracan2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\ModelX.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\ModelX2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\DeluxeCar\ModelX3.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cayenne.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\Cayenne.png
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cayenne2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\huracan.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\huracan2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\inside2 — копия.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\M5.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\M52.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\main2 — копия.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\main2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\ModelX.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\ModelX2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\Panamera.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\Panamera2.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\X5.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\X52.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\css\site.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\favicon.ico
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\js\site.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\LICENSE
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\LICENSE.md
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\appsettings.Development.json
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\appsettings.json
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\Content\Panamera.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\arkana.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\ceed.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\G70.jpeg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\G80.jpeg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\G90.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\k900.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\Santafe.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\Sonata.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\wwwroot\Content\cars\Sportage.jpg
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.deps.json
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.runtimeconfig.json
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.pdb
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\System.Data.OleDb.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\System.Diagnostics.PerformanceCounter.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\ConsoleApp2.exe
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\ConsoleApp2.pdb
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\ConsoleApp2.exe.config
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.Views.dll
+D:\github_projects\DeluxeCarDealer\DeluxeCarDealer\obj\Debug\net5.0\PubTmp\Out\DeluxeCarDealer.Views.pdb

@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Content\cars\arkana.jpg" />
+    <Content Remove="wwwroot\Content\cars\ceed.jpg" />
+    <Content Remove="wwwroot\Content\cars\G70.jpeg" />
+    <Content Remove="wwwroot\Content\cars\G80.jpeg" />
+    <Content Remove="wwwroot\Content\cars\G90.jpg" />
+    <Content Remove="wwwroot\Content\cars\k900.jpg" />
+    <Content Remove="wwwroot\Content\cars\Santafe.jpg" />
+    <Content Remove="wwwroot\Content\cars\Sonata.jpg" />
+    <Content Remove="wwwroot\Content\cars\Sportage.jpg" />
+    <Content Remove="wwwroot\Content\GN.png" />
+    <Content Remove="wwwroot\Content\Hyundai.svg" />
+    <Content Remove="wwwroot\Content\icon.jpg" />
+    <Content Remove="wwwroot\Content\icon2.jpg" />
+    <Content Remove="wwwroot\Content\inside.jpg" />
+    <Content Remove="wwwroot\Content\inside2.jpg" />
+    <Content Remove="wwwroot\Content\inside3.jpeg" />
+    <Content Remove="wwwroot\Content\Kia.svg" />
+    <Content Remove="wwwroot\Content\Lada.svg" />
+    <Content Remove="wwwroot\Content\main.jpg" />
+    <Content Remove="wwwroot\Content\MB.png" />
+    <Content Remove="wwwroot\Content\Panamera2.png" />
+    <Content Remove="wwwroot\Content\Reno.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Content\Panamera.jpg" />
+    <None Remove="Content\Panamera.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\arkana.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\ceed.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\G70.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\G80.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\G90.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\k900.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\Santafe.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\Sonata.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Content\cars\Sportage.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\Cayenne.png" />
+    <Content Include="Content\Panamera.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Content\Panamera.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\cars\arkana.jpg" />
+    <None Include="wwwroot\Content\cars\ceed.jpg" />
+    <None Include="wwwroot\Content\cars\G70.jpeg" />
+    <None Include="wwwroot\Content\cars\G80.jpeg" />
+    <None Include="wwwroot\Content\cars\G90.jpg" />
+    <None Include="wwwroot\Content\cars\k900.jpg" />
+    <None Include="wwwroot\Content\cars\Santafe.jpg" />
+    <None Include="wwwroot\Content\cars\Sonata.jpg" />
+    <None Include="wwwroot\Content\cars\Sportage.jpg" />
+    <None Include="wwwroot\Content\GN.png" />
+    <None Include="wwwroot\Content\Hyundai.svg" />
+    <None Include="wwwroot\Content\icon.jpg" />
+    <None Include="wwwroot\Content\icon2.jpg" />
+    <None Include="wwwroot\Content\inside.jpg" />
+    <None Include="wwwroot\Content\inside2.jpg" />
+    <None Include="wwwroot\Content\inside3.jpeg" />
+    <None Include="wwwroot\Content\Kia.svg" />
+    <None Include="wwwroot\Content\Lada.svg" />
+    <None Include="wwwroot\Content\main.jpg" />
+    <None Include="wwwroot\Content\MB.png" />
+    <None Include="wwwroot\Content\Panamera2.png" />
+    <None Include="wwwroot\Content\Reno.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp2\Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Content\Panamera.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\Content\Panamera.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

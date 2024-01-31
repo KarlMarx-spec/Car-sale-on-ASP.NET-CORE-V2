@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeluxeCarDealer", "DeluxeCarDealer.csproj", "{A1CE1A5B-2ED9-4055-9177-C79CC5DC2C65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59B51860-7003-42B0-BEB0-8E97CEBF3D2D} = {59B51860-7003-42B0-BEB0-8E97CEBF3D2D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\ConsoleApp2\Data.csproj", "{59B51860-7003-42B0-BEB0-8E97CEBF3D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1CE1A5B-2ED9-4055-9177-C79CC5DC2C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CE1A5B-2ED9-4055-9177-C79CC5DC2C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CE1A5B-2ED9-4055-9177-C79CC5DC2C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CE1A5B-2ED9-4055-9177-C79CC5DC2C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B51860-7003-42B0-BEB0-8E97CEBF3D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B51860-7003-42B0-BEB0-8E97CEBF3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B51860-7003-42B0-BEB0-8E97CEBF3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B51860-7003-42B0-BEB0-8E97CEBF3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F15EE4C-6EBD-489F-A577-602195708F26}
+	EndGlobalSection
+EndGlobal
